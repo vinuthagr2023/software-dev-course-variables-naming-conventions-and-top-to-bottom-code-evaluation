@@ -24,9 +24,19 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userName = "Alice";
+let quantity = 5;
+let price = 20;
+/*I replaced unclear variable names like a, b, and c with descriptive names
+ such as userName, quantity, and price.*/
 
-console.log(d);
+ let userAge = 25;
+let itemName = "Apple";
+/* Adding two more variables */
+
+let print = (userName + " whose age is " + userAge + " bought " + quantity +
+ " number of " + itemName +" for the $" + price + ".");
+
+
+
+console.log(print);
